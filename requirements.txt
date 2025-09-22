@@ -1,6 +1,6 @@
 labelme
 tensorflow
-tensorflow-gpu
+tensorflow
 opencv-python
 matplotlib
 albumentations
