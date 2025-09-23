@@ -1,3 +1,14 @@
 .venv/
 .env
 aug_data/
+data/test/images/*
+aug_data/test/images/*
+aug_data/test/labels/*
+aug_data/train/images/*
+aug_data/train/labels/*
+models/
+data/test/labels/*
+data/train/images/*
+data/train/labels/*
+data/val/images/*
+data/val/labels/*
