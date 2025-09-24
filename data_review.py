@@ -41,6 +41,5 @@ for idx, image in enumerate(plot_images):
     ax[idx].imshow(image.astype('uint8'))
     ax[idx].axis('off')
 
-#verificar qual a treta depois, não está abrindo a janela
-plt.savefig("preview.png")
+plt.show()
 print("Imagem salva em preview.png")

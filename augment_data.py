@@ -120,7 +120,7 @@ for partition in ['train', 'test', 'val']:
             print(f"Aviso: rótulo {label_filename} não encontrado.")
 
         try:
-            for x in range(60):  # Gerar 60 versões
+            for x in range(60):
                 augmented = augmentor(image=img_rgb, bboxes=[coords], class_labels=['face'])
 
                 aug_image_bgr = cv2.cvtColor(augmented['image'], cv2.COLOR_RGB2BGR)
