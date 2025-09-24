@@ -49,8 +49,8 @@ for split_name, files in splits.items():
         dst_json = os.path.join(DEST_DIRS[split_name]["labels"], json_file)
 
         if os.path.exists(src_img):
-            shutil.move(src_img, dst_img)
+            shutil.copy(src_img, dst_img)
         if os.path.exists(src_json):
-            shutil.move(src_json, dst_json)
+            shutil.copy(src_json, dst_json)
 
 print(f"✅ Divisão concluída! Treino: {len(train_files)}, Teste: {len(test_files)}, Validação: {len(val_files)}")
